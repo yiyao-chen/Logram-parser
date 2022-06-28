@@ -40,10 +40,11 @@ Mac_Regex = [r'([\w-]+\.){2,}[\w-]+']
 HealthApp_Regex = []
 Proxifier_Regex = [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B']
 
-doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(BGL_format, 'TestLogs/BGL_500M.log', BGL_Regex)
+doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Spark_format, '../TestLogs/Spark_2k.log', Spark_Regex)
 print(len(doubleDictionaryList))
 print(len(triDictionaryList))
-#tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,15,10,'Output/')
+
+tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,15,10,'../Output/')
 # evaluate('GroundTruth/HDFS_2k.log_templates.csv', 'Output/template.csv')
 
 #Parameters

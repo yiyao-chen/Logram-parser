@@ -1,0 +1,266 @@
+EventTemplate,Occurrences
+<*> <*> <*> <*> <*> <*> <*> ,4
+<*> <*> <*> <*> <*> ,5
+<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> ,2
+Slf4jLogger started ,1
+Starting remoting ,1
+<*> <*> <*> <*> <*> <*> ,7
+<*> <*> <*> <*> ,4
+Registered BlockManager ,1
+Got assigned task <*> ,305
+Running task 0.0 in stage <*> <*> <*> ,25
+Running task 2.0 in stage <*> <*> <*> ,25
+Running task 1.0 in stage <*> <*> <*> ,25
+Running task 3.0 in stage <*> <*> <*> ,25
+Running task 4.0 in stage <*> <*> <*> ,25
+Started reading broadcast variable <*> ,37
+<*> <*> stored as bytes in memory (estimated size <*> KB, free <*> <*> ,32
+Reading broadcast variable <*> <*> <*> <*> ,37
+<*> <*> stored as values in memory (estimated size <*> KB, free <*> <*> ,32
+<*> <*> not found, computing it ,75
+Input split: <*> ,45
+<*> <*> stored as bytes in memory (estimated size <*> B, free <*> <*> ,80
+<*> <*> stored as values in memory (estimated size <*> B, free <*> <*> ,5
+Times: total = <*> boot = <*> init = <*> finish = <*> ,6
+Times: total = 38, boot = <*> init = <*> finish = 0 ,21
+Times: total = 42, boot = <*> init = <*> finish = 0 ,6
+Times: total = 41, boot = 15, init = <*> finish = 0 ,1
+Times: total = 40, boot = <*> init = <*> finish = 0 ,25
+Times: total = 42, boot = 13, init = <*> finish = 1 ,4
+Finished task 3.0 in stage <*> <*> <*> 2703 bytes result sent to driver ,1
+Finished task 1.0 in stage <*> <*> <*> 2703 bytes result sent to driver ,1
+Finished task 2.0 in stage <*> <*> <*> 2703 bytes result sent to driver ,1
+Finished task 4.0 in stage <*> <*> <*> 2703 bytes result sent to driver ,1
+Finished task 0.0 in stage <*> <*> <*> 2703 bytes result sent to driver ,1
+Found block rdd_2_0 locally ,17
+Found block rdd_2_3 locally ,17
+Found block rdd_2_4 locally ,17
+Found block rdd_2_2 locally ,17
+Found block rdd_2_1 locally ,17
+Times: total = 42, boot = <*> init = <*> finish = 1 ,25
+Times: total = 41, boot = <*> init = <*> finish = 1 ,23
+Finished task 4.0 in stage <*> <*> <*> <*> bytes result sent to driver ,12
+Finished task 1.0 in stage <*> <*> <*> <*> bytes result sent to driver ,12
+Finished task 0.0 in stage <*> <*> <*> <*> bytes result sent to driver ,12
+Finished task 3.0 in stage <*> <*> <*> <*> bytes result sent to driver ,12
+Finished task 2.0 in stage <*> <*> <*> <*> bytes result sent to driver ,12
+Times: total = 39, boot = <*> init = <*> finish = 0 ,34
+Finished task 4.0 in stage <*> <*> <*> 2087 bytes result sent to driver ,5
+Finished task 2.0 in stage <*> <*> <*> 2087 bytes result sent to driver ,5
+Finished task 3.0 in stage <*> <*> <*> 2087 bytes result sent to driver ,5
+Finished task 1.0 in stage <*> <*> <*> 2087 bytes result sent to driver ,5
+Finished task 0.0 in stage <*> <*> <*> 2087 bytes result sent to driver ,5
+Times: total = 41, boot = <*> init = <*> finish = 0 ,19
+Times: total = 38, boot = 14, init = 24, finish = 0 ,2
+Times: total = 41, boot = 19, init = 22, finish = 0 ,3
+Finished task 4.0 in stage <*> <*> <*> 2667 bytes result sent to driver ,6
+Times: total = 41, boot = 16, init = 25, finish = 0 ,3
+Finished task 3.0 in stage <*> <*> <*> 2667 bytes result sent to driver ,6
+Finished task 1.0 in stage <*> <*> <*> 2667 bytes result sent to driver ,6
+Finished task 2.0 in stage <*> <*> <*> 2667 bytes result sent to driver ,6
+Finished task 0.0 in stage <*> <*> <*> 2667 bytes result sent to driver ,6
+Found block <*> <*> ,172
+Times: total = 39, boot = <*> init = <*> finish = 1 ,10
+Times: total = 40, boot = <*> init = <*> finish = 1 ,13
+Times: total = 38, boot = 17, init = 21, finish = 0 ,1
+Times: total = 38, boot = 18, init = 20, finish = 0 ,5
+Times: total = 40, boot = 19, init = 21, finish = 0 ,3
+Times: total = 41, boot = 17, init = 24, finish = 0 ,3
+Times: total = 43, boot = <*> init = <*> finish = 1 ,2
+Times: total = 39, boot = 22, init = 17, finish = 0 ,1
+Times: total = 41, boot = 20, init = 21, finish = 0 ,2
+Times: total = 40, boot = 20, init = 20, finish = 0 ,3
+Times: total = 40, boot = <*> init = 14, finish = 0 ,2
+Times: total = <*> boot = <*> init = <*> finish = 0 ,5
+Times: total = 38, boot = 19, init = 19, finish = 0 ,2
+Times: total = 39, boot = 20, init = 19, finish = 0 ,2
+Times: total = 40, boot = 17, init = 23, finish = 0 ,1
+Times: total = 42, boot = 18, init = 24, finish = 0 ,1
+Times: total = <*> boot = <*> init = <*> finish = 1 ,3
+Times: total = 38, boot = 23, init = 15, finish = 0 ,3
+Times: total = 41, boot = 23, init = 18, finish = 0 ,2
+Times: total = 39, boot = 18, init = 21, finish = 0 ,3
+Times: total = 38, boot = <*> init = <*> finish = 1 ,1
+Times: total = 39, boot = 21, init = 18, finish = 0 ,1
+Times: total = 41, boot = 18, init = 23, finish = 0 ,2
+Times: total = 40, boot = 18, init = 22, finish = 0 ,2
+Running task 0.0 in stage 24.0 (TID <*> ,1
+Running task 1.0 in stage 24.0 (TID <*> ,1
+Running task 2.0 in stage 24.0 (TID <*> ,1
+Running task 3.0 in stage 24.0 (TID <*> ,1
+Running task 4.0 in stage 24.0 (TID <*> ,1
+File Output Committer Algorithm version is 1 ,30
+Saved output of task <*> <*> <*> ,30
+attempt_201706092018_0024_m_000004_1026: Committed ,1
+attempt_201706092018_0024_m_000002_998: Committed ,1
+attempt_201706092018_0024_m_000003_1012: Committed ,1
+attempt_201706092018_0024_m_000001_984: Committed ,1
+attempt_201706092018_0024_m_000000_970: Committed ,1
+Finished task 3.0 in stage 24.0 (TID <*> 2364 bytes result sent to driver ,1
+Finished task 4.0 in stage 24.0 (TID <*> 2364 bytes result sent to driver ,1
+Finished task 1.0 in stage 24.0 (TID <*> 2364 bytes result sent to driver ,1
+Finished task 2.0 in stage 24.0 (TID <*> 2364 bytes result sent to driver ,1
+Finished task 0.0 in stage 24.0 (TID <*> 2364 bytes result sent to driver ,1
+Running task <*> in stage 24.0 (TID <*> ,20
+attempt_201706092018_0024_m_000044_1129: Committed ,1
+attempt_201706092018_0024_m_000043_1128: Committed ,1
+attempt_201706092018_0024_m_000040_1125: Committed ,1
+attempt_201706092018_0024_m_000042_1127: Committed ,1
+attempt_201706092018_0024_m_000041_1126: Committed ,1
+Finished task <*> in stage 24.0 (TID <*> 2364 bytes result sent to driver ,20
+attempt_201706092018_0024_m_000083_1138: Committed ,1
+attempt_201706092018_0024_m_000084_1141: Committed ,1
+attempt_201706092018_0024_m_000080_1135: Committed ,1
+attempt_201706092018_0024_m_000082_1137: Committed ,1
+attempt_201706092018_0024_m_000081_1136: Committed ,1
+attempt_201706092018_0024_m_000124_1151: Committed ,1
+attempt_201706092018_0024_m_000120_1145: Committed ,1
+attempt_201706092018_0024_m_000122_1147: Committed ,1
+attempt_201706092018_0024_m_000121_1146: Committed ,1
+attempt_201706092018_0024_m_000123_1150: Committed ,1
+attempt_201706092018_0024_m_000160_1155: Committed ,1
+attempt_201706092018_0024_m_000163_1158: Committed ,1
+attempt_201706092018_0024_m_000164_1159: Committed ,1
+attempt_201706092018_0024_m_000162_1157: Committed ,1
+attempt_201706092018_0024_m_000161_1156: Committed ,1
+attempt_201706092018_0025_m_000004_1199: Committed ,1
+Finished task 4.0 in stage <*> <*> <*> 2364 bytes result sent to driver ,1
+attempt_201706092018_0025_m_000003_1198: Committed ,1
+attempt_201706092018_0025_m_000000_1166: Committed ,1
+attempt_201706092018_0025_m_000002_1194: Committed ,1
+attempt_201706092018_0025_m_000001_1180: Committed ,1
+Finished task 3.0 in stage <*> <*> <*> 2364 bytes result sent to driver ,1
+Finished task 0.0 in stage <*> <*> <*> 2364 bytes result sent to driver ,1
+Finished task 2.0 in stage <*> <*> <*> 2364 bytes result sent to driver ,1
+Finished task 1.0 in stage <*> <*> <*> 2364 bytes result sent to driver ,1
+Running task 0.0 in stage 26.0 (TID <*> ,1
+Running task 1.0 in stage 26.0 (TID <*> ,1
+Running task 2.0 in stage 26.0 (TID <*> ,1
+Running task 3.0 in stage 26.0 (TID <*> ,1
+Running task 4.0 in stage 26.0 (TID <*> ,1
+Times: total = <*> boot = <*> init = <*> finish = 5 ,15
+Times: total = 42, boot = 25, init = 16, finish = 1 ,1
+Finished task 0.0 in stage 26.0 (TID <*> 2703 bytes result sent to driver ,1
+Running task <*> in stage 26.0 (TID <*> ,35
+Times: total = 41, boot = 21, init = 20, finish = 0 ,2
+Times: total = 41, boot = 20, init = 20, finish = 1 ,1
+Times: total = 42, boot = 23, init = 19, finish = 0 ,1
+Times: total = 42, boot = 20, init = 21, finish = 1 ,2
+Finished task 4.0 in stage 26.0 (TID <*> 2703 bytes result sent to driver ,1
+Finished task 2.0 in stage 26.0 (TID <*> 2703 bytes result sent to driver ,1
+Finished task 1.0 in stage 26.0 (TID <*> 2703 bytes result sent to driver ,1
+Finished task 3.0 in stage 26.0 (TID <*> 2703 bytes result sent to driver ,1
+Times: total = <*> boot = 21, init = <*> finish = 5 ,1
+Times: total = <*> boot = <*> init = 41, finish = 5 ,4
+Times: total = <*> boot = 19, init = <*> finish = 0 ,1
+Finished task <*> in stage 26.0 (TID <*> <*> bytes result sent to driver ,16
+Times: total = 41, boot = 24, init = 17, finish = 0 ,1
+Finished task <*> in stage 26.0 (TID <*> 2703 bytes result sent to driver ,19
+Times: total = 42, boot = 22, init = 19, finish = 1 ,4
+Times: total = <*> boot = <*> init = 40, finish = <*> ,1
+Times: total = <*> boot = 13, init = 40, finish = 5 ,1
+Times: total = 42, boot = 17, init = 24, finish = 1 ,2
+Times: total = 39, boot = 20, init = 18, finish = 1 ,2
+Times: total = 40, boot = 22, init = 18, finish = 0 ,1
+Times: total = 39, boot = 24, init = 14, finish = 1 ,1
+Times: total = <*> boot = 16, init = <*> finish = 5 ,1
+Times: total = <*> boot = 14, init = <*> finish = 5 ,1
+Times: total = <*> boot = 13, init = <*> finish = 5 ,1
+Times: total = <*> boot = <*> init = 38, finish = 5 ,3
+Times: total = 38, boot = 16, init = 22, finish = 0 ,1
+Times: total = 38, boot = 24, init = 14, finish = 0 ,1
+Times: total = 43, boot = 23, init = 19, finish = 1 ,1
+Times: total = 38, boot = 20, init = 18, finish = 0 ,1
+Times: total = <*> boot = 15, init = <*> finish = 5 ,1
+Times: total = <*> boot = 17, init = <*> finish = 5 ,1
+Times: total = 40, boot = 13, init = <*> finish = 1 ,1
+Times: total = 42, boot = <*> init = 16, finish = 0 ,1
+Times: total = 39, boot = 23, init = 16, finish = 0 ,2
+Times: total = 38, boot = 21, init = 17, finish = 0 ,1
+Times: total = 42, boot = 20, init = 22, finish = 0 ,1
+Times: total = <*> boot = <*> init = 40, finish = 5 ,3
+Times: total = <*> boot = <*> init = 41, finish = <*> ,1
+Times: total = 42, boot = 24, init = 17, finish = 1 ,3
+Times: total = <*> boot = 16, init = 25, finish = 5 ,1
+Times: total = <*> boot = <*> init = 42, finish = 5 ,1
+Times: total = <*> boot = <*> init = 39, finish = 5 ,1
+Times: total = 42, boot = 24, init = 18, finish = 0 ,1
+Times: total = 43, boot = 17, init = 25, finish = 1 ,1
+Times: total = <*> boot = 17, init = 23, finish = <*> ,1
+Times: total = <*> boot = 17, init = 25, finish = <*> ,1
+Times: total = 40, boot = 24, init = 16, finish = 0 ,1
+Times: total = 40, boot = 13, init = <*> finish = 0 ,1
+Running task 0.0 in stage 27.0 (TID <*> ,1
+Running task 1.0 in stage 27.0 (TID <*> ,1
+Running task 2.0 in stage 27.0 (TID <*> ,1
+Running task 3.0 in stage 27.0 (TID <*> ,1
+Running task 4.0 in stage 27.0 (TID <*> ,1
+Finished task 0.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
+Finished task 4.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
+Finished task 2.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
+Running task <*> in stage 27.0 (TID <*> ,35
+Finished task 3.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
+Finished task 1.0 in stage 27.0 (TID <*> <*> bytes result sent to driver ,1
+Finished task <*> in stage 27.0 (TID <*> <*> bytes result sent to driver ,31
+Times: total = 40, boot = 15, init = 25, finish = 0 ,3
+Times: total = 43, boot = 13, init = <*> finish = 1 ,1
+Times: total = 40, boot = 14, init = 25, finish = 1 ,2
+Finished task <*> in stage 27.0 (TID <*> 2667 bytes result sent to driver ,1
+Times: total = 42, boot = 19, init = 22, finish = 1 ,2
+Times: total = 39, boot = 15, init = 24, finish = 0 ,2
+Times: total = 40, boot = 14, init = <*> finish = 0 ,2
+Times: total = 39, boot = 13, init = 25, finish = 1 ,1
+Finished task <*> in stage 27.0 (TID <*> 2128 bytes result sent to driver ,3
+Times: total = 42, boot = 16, init = 25, finish = 1 ,4
+Times: total = 40, boot = 17, init = 22, finish = 1 ,1
+Times: total = 41, boot = 19, init = 21, finish = 1 ,3
+Times: total = 41, boot = 14, init = 25, finish = <*> ,1
+Times: total = 42, boot = 14, init = <*> finish = 1 ,1
+Times: total = 40, boot = 20, init = 19, finish = 1 ,3
+Times: total = 42, boot = <*> init = 14, finish = 1 ,1
+Times: total = 39, boot = 17, init = 21, finish = 1 ,1
+Running task 0.0 in stage 28.0 (TID <*> ,1
+Running task 1.0 in stage 28.0 (TID <*> ,1
+Running task 2.0 in stage 28.0 (TID <*> ,1
+Running task 3.0 in stage 28.0 (TID <*> ,1
+Running task 4.0 in stage 28.0 (TID <*> ,1
+Finished task 4.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
+Finished task 2.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
+Finished task 3.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
+Running task <*> in stage 28.0 (TID <*> ,35
+Finished task 0.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
+Finished task 1.0 in stage 28.0 (TID <*> 2087 bytes result sent to driver ,1
+Times: total = 40, boot = 16, init = 24, finish = 0 ,1
+Finished task <*> in stage 28.0 (TID <*> 2087 bytes result sent to driver ,35
+Times: total = 42, boot = 13, init = <*> finish = 0 ,1
+Times: total = 40, boot = 21, init = 19, finish = 0 ,1
+Times: total = 39, boot = 19, init = 20, finish = 0 ,1
+Times: total = 42, boot = 14, init = <*> finish = 0 ,1
+Times: total = 39, boot = 15, init = 23, finish = 1 ,2
+Times: total = 43, boot = 15, init = <*> finish = 1 ,3
+Times: total = 41, boot = 17, init = 23, finish = 1 ,1
+Running task 0.0 in stage 29.0 (TID <*> ,1
+Running task 1.0 in stage 29.0 (TID <*> ,1
+Running task 2.0 in stage 29.0 (TID <*> ,1
+Running task 3.0 in stage 29.0 (TID <*> ,1
+Running task 4.0 in stage 29.0 (TID <*> ,1
+Finished task 3.0 in stage 29.0 (TID <*> 2128 bytes result sent to driver ,1
+Finished task 4.0 in stage 29.0 (TID <*> 2128 bytes result sent to driver ,1
+Finished task 0.0 in stage 29.0 (TID <*> 2128 bytes result sent to driver ,1
+Finished task 2.0 in stage 29.0 (TID <*> 2128 bytes result sent to driver ,1
+Finished task 1.0 in stage 29.0 (TID <*> <*> bytes result sent to driver ,1
+Running task <*> in stage 29.0 (TID <*> ,30
+Times: total = 39, boot = 18, init = 20, finish = 1 ,3
+Times: total = 41, boot = 16, init = 24, finish = 1 ,1
+Times: total = 43, boot = 25, init = 17, finish = 1 ,1
+Finished task <*> in stage 29.0 (TID <*> <*> bytes result sent to driver ,8
+Finished task <*> in stage 29.0 (TID <*> 2128 bytes result sent to driver ,17
+Times: total = 39, boot = 19, init = 19, finish = 1 ,1
+Times: total = 41, boot = 21, init = 19, finish = 1 ,1
+Times: total = 42, boot = 18, init = 23, finish = 1 ,2
+Times: total = 41, boot = <*> init = 14, finish = 0 ,1
+Times: total = 41, boot = 15, init = 25, finish = 1 ,2
+Times: total = 39, boot = 16, init = 22, finish = 1 ,1
+Times: total = 41, boot = 18, init = 22, finish = 1 ,1
+Times: total = 41, boot = 23, init = 17, finish = 1 ,1
+Times: total = 43, boot = 14, init = <*> finish = 1 ,1
