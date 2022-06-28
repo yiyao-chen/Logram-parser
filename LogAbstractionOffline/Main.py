@@ -18,6 +18,7 @@ OpenSSH_format = '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>' #Ope
 OpenStack_format = '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>' #OpenStack format
 HealthApp_format = '<Time>\|<Component>\|<Pid>\|<Content>'
 Proxifier_format = '\[<Time>\] <Program> - <Content>'
+Chaos_format = '\[<DateTimeLevel>\] \[<Component>\] <Content>'
 
 HDFS_Regex = [
         r'blk_(|-)[0-9]+' , # block id
@@ -39,8 +40,9 @@ OpenStack_Regex = [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+']
 Mac_Regex = [r'([\w-]+\.){2,}[\w-]+']
 HealthApp_Regex = []
 Proxifier_Regex = [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B']
+Chaos_Regex = []
 
-doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Spark_format, '../TestLogs/Spark_2k.log', Spark_Regex)
+doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Chaos_format, '../TestLogs/chaos_logs/chaostoolkit 19.log', Spark_Regex)
 print(len(doubleDictionaryList))
 print(len(triDictionaryList))
 

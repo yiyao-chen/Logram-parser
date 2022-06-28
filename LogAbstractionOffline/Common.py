@@ -12,14 +12,16 @@ def preprocess(logLine,Regex):
     return line
 
 def tokenSpliter(logLine, regex, specialRegex):
+    print("tokenSpliter")
     match = regex.search(logLine.strip())
-    # print(match)
+    print("match: ")
+    print(match)
     if match == None:
         tokens = None
         pass;
     else:
         message = match.group('Content')
-        # print(message)
+        print("content: "+ message)
         line = preprocess(message,specialRegex)
         tokens = line.strip().split()
     # print(tokens)

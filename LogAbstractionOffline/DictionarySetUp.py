@@ -6,11 +6,14 @@ def dictionaryBuilder(log_format, logFile, rex):
     triDictionaryList = {'dictionary^DHT^triple': -1};
     allTokenList = []
 
-    regex = regexGenerator(log_format)
-
+    pattern = regexGenerator(log_format)
+    print("pattern")
+    print(pattern)
     for line in open(logFile, 'r', encoding="utf-8", errors='ignore'):
-        #print(line)
-        tokens = tokenSpliter(line, regex, rex)
+        print("for line: " + line)
+        tokens = tokenSpliter(line, pattern, rex)
+        print("tokens")
+        print(tokens)
         if(tokens == None):
             pass;
         else:
