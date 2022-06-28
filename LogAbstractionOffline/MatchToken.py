@@ -63,8 +63,10 @@ def tokenMatch(allTokensList, doubleDictionaryList, triDictionaryList, doubleThr
         outFile.write(logEvent);
         outFile.write('\n');
 
+    sortedTemplateTable = sorted(templateTable.keys(), key=lambda x:x.lower())
+
     templateFile.write('EventTemplate,Occurrences')
     templateFile.write('\n')
-    for template in templateTable.keys():
+    for template in sortedTemplateTable:
         templateFile.write(template + ',' + str(templateTable[template]))
         templateFile.write('\n')

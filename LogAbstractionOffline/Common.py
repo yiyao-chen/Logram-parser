@@ -7,21 +7,24 @@ MyRegex = [
 ]
 
 def preprocess(logLine,Regex):
+    line = ' ' + logLine
     for regex in Regex:
         line = re.sub(regex, '<*>', ' ' + logLine)
     return line
 
 def tokenSpliter(logLine, regex, specialRegex):
-    print("tokenSpliter")
+    #print("tokenSpliter")
     match = regex.search(logLine.strip())
-    print("match: ")
-    print(match)
+    #print("match: ")
+    #print(match)
     if match == None:
+        print("match==None")
+        print("on: " + logLine)
         tokens = None
         pass;
     else:
         message = match.group('Content')
-        print("content: "+ message)
+        #print("content: "+ message)
         line = preprocess(message,specialRegex)
         tokens = line.strip().split()
     # print(tokens)

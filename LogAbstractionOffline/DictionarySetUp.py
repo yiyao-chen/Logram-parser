@@ -7,13 +7,13 @@ def dictionaryBuilder(log_format, logFile, rex):
     allTokenList = []
 
     pattern = regexGenerator(log_format)
-    print("pattern")
-    print(pattern)
+    #print("pattern")
+    #print(pattern)
     for line in open(logFile, 'r', encoding="utf-8", errors='ignore'):
-        print("for line: " + line)
+        #print("for line: " + line)
         tokens = tokenSpliter(line, pattern, rex)
-        print("tokens")
-        print(tokens)
+        #print("tokens")
+        #print(tokens)
         if(tokens == None):
             pass;
         else:
