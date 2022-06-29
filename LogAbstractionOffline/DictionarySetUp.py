@@ -34,4 +34,14 @@ def dictionaryBuilder(log_format, logFile, rex):
                     doubleDictionaryList[doubleTmp] = doubleDictionaryList[doubleTmp] + 1;
                 else:
                     doubleDictionaryList[doubleTmp] = 1;
+
+
+    print("\ntri-grams")
+    for key, value in triDictionaryList.items():
+        print(key, ' : ', value)
+
+    print("\nbi-grams")
+    for key, value in doubleDictionaryList.items():
+        print(key, ' : ', value)
+
     return doubleDictionaryList, triDictionaryList, allTokenList

@@ -1,5 +1,6 @@
 import hashlib
 
+# find low-appearing tri-grams
 def tripleMatch(tokens, triDictionaryList, triThreshold):
     indexList = {}
 
@@ -13,8 +14,11 @@ def tripleMatch(tokens, triDictionaryList, triThreshold):
             indexList[index] = 1
             indexList[index+1] = 1
             indexList[index+2] = 1
+    print("indexList")
+    print(indexList)
     return list(indexList.keys())
 
+# find low-appearing bi-grams
 def doubleMatch(tokens, indexList, doubleDictionaryList, doubleThreshold, length):
     dynamicIndex = []
     for i in range(len(indexList)):

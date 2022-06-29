@@ -24,10 +24,9 @@ def tokenSpliter(logLine, regex, specialRegex):
         pass;
     else:
         message = match.group('Content')
-        #print("content: "+ message)
+        print("content: "+ message)
         line = preprocess(message,specialRegex)
         tokens = line.strip().split()
-    # print(tokens)
     return tokens
 
 def regexGenerator(logformat):

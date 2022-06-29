@@ -19,6 +19,7 @@ OpenStack_format = '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>
 HealthApp_format = '<Time>\|<Component>\|<Pid>\|<Content>'
 Proxifier_format = '\[<Time>\] <Program> - <Content>'
 Chaos_format = '\[<Date> <Time> <Level>\]( \[<Component>:<Pid>\])? <Content>'
+Test_format = '<Date> <Time> <Level> <Component>: <Content>'
 
 HDFS_Regex = [
         r'blk_(|-)[0-9]+' , # block id
@@ -42,11 +43,11 @@ HealthApp_Regex = []
 Proxifier_Regex = [r'<\d+\ssec', r'([\w-]+\.)+[\w-]+(:\d+)?', r'\d{2}:\d{2}(:\d{2})*', r'[KGTM]B']
 Chaos_Regex = []
 
-doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Chaos_format, '../TestLogs/chaos_logs/chaostoolkit 19.log', Chaos_Regex)
+doubleDictionaryList, triDictionaryList, allTokenList = dictionaryBuilder(Test_format, '../TestLogs/test.log', Chaos_Regex)
 print(len(doubleDictionaryList))
 print(len(triDictionaryList))
 
-tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,15,10,'../Output/')
+tokenMatch(allTokenList,doubleDictionaryList,triDictionaryList,3,2,'../Output/')
 # evaluate('GroundTruth/HDFS_2k.log_templates.csv', 'Output/template.csv')
 
 #Parameters
